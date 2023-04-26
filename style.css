@@ -1,0 +1,1120 @@
+*{
+	margin :0px;
+	padding: 0px;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+    z-index: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: linear-gradient(to bottom right,#22B573, #29ABE2);
+    width: auto;
+}
+/**************************************************(NAVBAR/ HEADER)*/
+header{
+    top: 0;
+    
+    left: 0;
+    padding: 5px 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight:200;
+    background-color:white;
+    transition: 0.5s;
+    font-size:20px;
+    position:fixed;
+}
+header :hover{
+    color: #20c997;
+    
+}
+.img{
+    width: 25%;
+}
+.logo{
+    width:50%;
+}
+.navbar{
+    position: center;
+    left: -500px;
+    margin-right:-500px;
+}
+.navbar li{
+    list-style: none;
+}
+.m{
+    color: black;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.m:hover{
+    
+}
+.submenu{
+    display: none;
+    column-count: 3;
+    color: #20c997;;
+    text-decoration: none;
+    left:-40%;
+    background-color:#fff;
+    width:120%;
+    padding: 2% 2%;
+    border-radius: 6px;
+    box-shadow: 0 20px 70px 0 rgb(0 0 0);
+    top: 20px;
+    
+    
+}
+.submenu2{
+    display: none;
+    width:120%;
+    padding: 5% 5%;
+    top: 45px;
+    
+
+}
+header li:hover .submenu2{
+    display: block;
+    position:absolute;
+    z-index: 1000;
+}
+.A{
+    color: black;
+    text-decoration: none;
+    margin-top: 50px;
+}
+.A:hover{
+    color:#20c997 ;
+    font-weight: bold;
+}
+header li:hover .submenu{
+    display: block;
+    position:absolute;
+    z-index: 1000;
+}
+.FL{
+    font-family: 'Fugaz One', cursive;
+}
+.dl{
+    color: white;
+    padding: 10px 10px;
+    margin-left:50px;
+    margin-right:-100px;
+    background: #20c997;
+    font-weight: 50;
+    text-transform:none ;
+    text-decoration: none;
+    border-radius: 10px;
+    z-index: -23;
+}
+.dl:hover{
+    color: black;
+    transition: ease-out;
+    
+}
+/**************************************************(PREMIER CONTAINER / PREMIER PARTIE DE LA PAGE)*/
+.haut12{
+    margin-top: 6%;
+    margin-bottom:25%;
+    
+    background: linear-gradient(to bottom right,#22B573, #29ABE2);
+}
+.haut{
+    margin-top: 5%;
+    margin-bottom:25%;
+}
+.rel{
+    
+}
+.titre{
+    text-decoration: none;
+    font-size:60px;
+    font-weight:bold;
+    margin-bottom:5%;
+}
+.phrase{
+    font-size: 30px;
+    margin-bottom:5%;
+}
+.btn {
+    padding-right:20px;
+    padding-left:20px;
+    background-color: white;
+    font-size: 35px;
+    font-weight: 200;
+    color: black;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left:-30px;
+    margin-right:-200px;
+    text-transform:none ;
+    text-decoration: none;
+}
+.btn:hover{
+    color:  #20c997;
+}
+
+.front{
+     z-index: 1;
+    width: 120%;
+     
+ }
+
+/**************************************************(BAS DE PAGE )*/
+.bas{
+    background-color: #007CA8;
+    display: flex;
+    bottom:1200px;
+    color:white;
+    margin-top:5%;
+}
+.basdepage{
+   
+}
+.fonc{
+    margin-top:50px;
+    font-weight: bold;
+    font-size:25px;
+}
+.appstore{
+    margin-left:65%;
+    width:150px;
+    height:47Px;
+}
+.google{
+    margin-left:65%;
+    width:150px;
+
+}
+.petitf{
+    text-decoration: none;
+    color:white;
+}
+.petitf:hover{
+    color:  #20c997;
+}
+/**************************************************(RESPONSIVE PETIT ECRAN)*/
+@media (min-height: 900px) {
+
+    .front{
+        margin-left:-4%;
+        width:115%;
+        margin-top:5%;
+    }
+    .rel{
+        margin-top:5%;
+    }
+}
+
+@media (max-width: 1600px ) {
+    .haut12{
+        margin-top:5.5%;
+    }
+    .front{
+        margin-left:-4%;
+        width:105%;
+        margin-top:-2%;
+    }
+    .rel{
+        
+    }
+    
+    .titre{
+        font-size:55px;
+    }
+    .phrase{
+        font-size:25px;
+    }
+    .btn{
+        margin-left:0;
+        font-size:25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    .haut{
+        margin-bottom:100px;
+    }
+    .haut12{
+        margin-bottom:100px;
+    }
+}
+@media (max-width: 1441px) {
+
+    .haut12{
+        margin-top:6.4%;
+    }
+}
+@media (max-width: 1300px) {
+    
+    .front{
+        margin-left:-5%;
+        width:115%;
+        margin-top:10%;
+    }
+    .rel{
+        margin-top:5%;
+    }
+    .titre{
+        font-size:50px;
+    }
+    .phrase{
+        font-size:25px;
+    }
+    .btn{
+        margin-left:0;
+        font-size:25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+}
+@media (max-width: 1899px) {
+    .haut12{
+        margin-top:5%;
+    }
+    
+}
+@media (min-width: 1900px) {
+    .haut12{
+        margin-top:4.5%;
+    }
+    .front{
+        margin-left:15%;
+        width:135%;
+        margin-top:-2%;
+    }
+    .rel{
+        margin-left:-15%;
+        margin-top:2%;
+    }
+}
+/**************************************************(RESPONSIVE PORTABLE)*/
+@media (max-width: 991px) {
+    header,
+    header.sticky{
+        padding: 20px 20px;
+    }
+    header {
+        position:fixed;
+        
+    }
+    .haut5{margin-top:35%;}
+    header .navbar li{
+        margin-left: -15%;
+    }
+    header .dl{
+        margin-left: -35%;
+    }
+    header .navbar li a {
+        text-decoration: none;
+        color: #20c997 ;
+        font-size: 1.6em;
+        font-weight: 300;
+        
+    }
+
+    .navbar{
+        display: none;
+        background-color:white;
+    }
+    .img{
+        width:70%;
+    }
+
+    header .navbar.active{
+        width: 100%;
+
+        position: fixed;
+        top: 68px;
+        left:0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+        align-items: center;
+
+    }
+
+    .menuToggle{
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background-image: url(./images/menu.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        background-size: 30px;
+    }
+
+    .menuToggle.active
+    {
+        background-image: url(./images/close.png);
+        background-size: 25px;
+        background-repeat: no-repeat;
+        
+    }
+
+    header.sticky .menuToggle{
+        filter: invert(1);
+    }
+    header li:hover .submenu{
+        display: none;
+    }
+    .dl{
+        padding: 5px;
+    }
+    .titre{
+        margin-top:60px;
+    }
+    
+    .rel{
+        margin-left:0;
+        margin-bottom:40px;
+    }
+    .titre{
+        font-size:25px;
+    }
+    .phrase{
+        font-size:14px;
+    }
+    .btn{
+        margin-left:8%;
+        font-size:15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    .front{
+        margin-left:-9%;
+    }
+   
+    .basdepage{
+        
+        margin-left:30px;
+        
+    }
+    .appstore{
+        display:none;
+    }
+    .google{
+        display:none;
+    }
+    .fonda{
+        display:none;
+    }
+
+    
+}
+
+
+/**************************************************(Sous pages)*/
+.titresecondaire span{
+    
+    font-size:70px;
+    font-weight: bold;
+    font-family: Abril fatface, sans-serif;
+}
+.titresecondaire{
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.haut2{
+    color:white;
+    margin-top:10%;
+    position:center;
+    text-align: center;
+    margin-bottom:15%;
+}
+.souspagephrase{
+    margin-top:5%;
+    font-size:30px;
+    margin-bottom:5%;
+}
+.titresp{
+    font-size:50px;
+    font-weight: bold;
+    font-family: Abril fatface, sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btnn {
+    
+    background-color: white;
+    font-size: 35px;
+    font-weight: 200;
+    color:black ;
+    border-radius: 10px;
+    text-transform:none ;
+    text-decoration: none;
+    padding: 8px 15px;
+    
+}
+.btnn:hover{
+    color: #20c997 ;
+}
+    
+.reveal{
+    opacity: 0;
+    transform: translateY(-30px);
+}
+.reveal2{
+    opacity: 0;
+    transform: translateY(30px);
+}
+.reveal3{
+    opacity: 0;
+    transform: translateX(-30px);
+}
+.reveal4{
+    opacity: 0;
+    transform: translateX(30px);
+}
+.reveal-visible{
+    opacity: 1;
+    transform: translateY(0);
+    transition-duration:1s;
+}
+/*********************************************BAS SOUS PAGE*/
+.haut2{
+    margin-top: 6%;
+    margin-bottom:150px;
+}
+.rel2{
+
+}
+.titre2{
+    text-decoration: none;
+    font-size:60px;
+    font-weight:bold;
+    margin-bottom:5%;
+}
+.phrase2{
+    font-size: 30px;
+    margin-bottom:5%;
+}
+.btn2 {
+    padding-right:20px;
+    padding-left:20px;
+    background-color: white;
+    font-size: 35px;
+    font-weight: 200;
+    color: black;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left:-30px;
+    margin-right:-200px;
+    text-transform:none ;
+    text-decoration: none;
+    
+}
+.btn2:hover{
+    color:  #20c997;
+}
+
+.front2{
+    z-index: 1;
+    width: 120%;
+
+}
+
+/*********************************************RESPONSIVE SOUS PAGE*/
+
+@media (max-width: 991px) {
+    
+    .titresecondaire span{
+
+        font-size:30px;
+        font-weight: bold;
+        font-family: Abril fatface, sans-serif;
+    }
+    .titresecondaire{
+        margin-top: 5%;
+        
+    }
+    .haut2{
+        
+        margin-top:30%;
+        
+        text-align: center;
+        margin-bottom:15%;
+        margin-left:-10%;
+        
+    }
+    .souspagephrase{
+        margin-top:5%;
+        font-size:15px;
+        margin-bottom:5%;
+    }
+    .titresp{
+        font-size:20px;
+        font-weight: bold;
+        font-family: Abril fatface, sans-serif;
+    }
+
+    .haut{
+        margin-top:100px;
+    }
+    haut12{
+        margin-top:100px;
+    }
+    .rel{
+        margin-left:0;
+        margin-bottom:40px;
+    }
+    .titre2{
+        font-size:25px;
+    }
+    .phrase2{
+        font-size:14px;
+    }
+    .btnn{
+        margin-left:0;
+        font-size:15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    .btn2{
+        margin-left:0;
+        font-size:15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    .front2{
+        margin-left:-15%;
+    }
+
+}
+
+/********************************************* SOUS PAGE flash*/
+
+.R{
+    width:150%;
+    position:absolute;
+    margin-left:-25%;
+    
+}
+.hautf{
+    margin-top: 15%;
+    margin-bottom:25%;
+    
+
+}
+.phrasefl{
+
+    margin-left:45%;
+    font-size:25px;
+}
+.flassss{
+    margin-left:45%;
+    margin-top:2%;
+    margin-bottom:10%;
+}
+.bar{
+    
+    width:1%;
+    height:15%;
+    margin-left:40%;
+    position:absolute;
+    margin-top:2%;
+    z-index:-3;
+}
+.bar2{
+
+    width:1%;
+    height:15%;
+    margin-left:40%;
+    position:absolute;
+    margin-top:2%;
+    z-index:-3;
+    animation: progress-bar 3s  infinite;
+}
+.barr{
+
+    width:1%;
+    height:15%;
+    margin-left:40%;
+    position:absolute;
+    margin-top:18%;
+    z-index:-3;
+}
+.barr2{
+
+    width:1%;
+    height:15%;
+    margin-left:40%;
+    position:absolute;
+    margin-top:18%;
+    z-index:-3;
+    animation: progress-bar 3s infinite;
+}
+.barrr{
+
+    width:1%;
+    height:15%;
+    margin-left:40%;
+    position:absolute;
+    margin-top:35%;
+    z-index:-3;
+}
+.barrr2{
+
+    width:1%;
+    height:15%;
+    margin-left:40%;
+    position:absolute;
+    margin-top:35%;
+    z-index:-3;
+    animation: progress-bar 3s  infinite;
+}
+.barrrr{
+
+    width:1%;
+    height:15%;
+    margin-left:40%;
+    position:absolute;
+    margin-top:54%;
+    z-index:-3;
+}
+.barrrr2{
+
+    width:1%;
+    height:15%;
+    margin-left:40%;
+    position:absolute;
+    margin-top:54%;
+    z-index:-3;
+    animation: progress-bar 3s  infinite;
+}
+.barrrrr{
+
+    width:1%;
+    height:15%;
+    margin-left:40%;
+    position:absolute;
+    margin-top:74%;
+    z-index:-3;
+}
+.barrrrr2{
+
+    width:1%;
+    height:15%;
+    margin-left:40%;
+    position:absolute;
+    margin-top:74%;
+    z-index:-3;
+    animation: progress-bar 3s  infinite;
+}
+@keyframes progress-bar{
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+/*******************************    *********************************************LIEN*/
+.lienapp{
+   
+}
+.lienplay{
+    width:55%;
+}
+.matrixé{
+    margin-top:10%;
+    
+}
+.MOM{
+    margin-top:10%;
+}
+.mash{
+    margin-top:10%;
+}
+/*******************************    *********************************************CATEGORIES*/
+
+.Titresortie{
+    margin-left:35%;
+    font-size:300%;
+    font-weight:bold;
+    margin-top:-4%;
+}
+.soirée{
+    width:100%;
+    height:79.21%;
+    border-radius:5%;
+    margin-top:1%;
+}
+.soirav{
+    margin-top:3%;
+}
+.hauts{
+    margin-top:5%;
+}
+.phonesoirée{
+    width:40%;
+    position:absolute;
+    top:-2%;
+    z-index:3;
+    left:-0.1%
+}
+
+.kol{
+    background-color:black;
+    z-index:1;
+    width:96.88%;
+    height:79.21%;
+    
+    position:absolute;
+    top:0;
+    opacity:30%;
+    
+}
+.sortietexte{
+    margin-left:40%;
+    font-size:200%;
+    font-weight:bold;
+}
+.flassss2{
+    margin-left:-15%;
+    
+    margin-top:2%;
+    margin-bottom:10%;
+    
+}
+.passad{
+    margin-right:-8%;
+}.sortietexte2{
+     margin-left:40%;
+     font-size:150%;
+ }
+ .engagement{
+     margin-right:-5%;
+ }
+ .phonesport{
+     width:40%;
+     position:absolute;
+     top:-2%;
+     z-index:3;
+     right:-0.1%
+ }
+ .descned{
+     margin-top:5%;
+ }
+/*******************************    *********************************************discu*/
+.discu{
+    margin-left:-22%;
+}
+.phonediscu{
+    width:43%;
+}
+.dis{
+    margin-bottom:10%;
+    margin-top:8%;
+}
+.discuuu{
+    margin-top: -2%;
+    margin-bottom:5%;
+}
+.discu2{
+    margin-right:-50%;
+    margin-top: 3%;
+}
+.phonediscu2{
+    width:43%;
+    position:absolute;
+    right:1%;
+}
+.discu5{
+    margin-right:-50%;
+    margin-top: -3%;
+    margin-left:40%;
+}
+.private{
+    margin-top:15%;
+}
+/*******************************    *********************************************qrcode*/
+.Qrcode{
+    width:100%;
+}
+.qrcodetexte{
+    font-size:150%;
+    margin-top:-6% ;
+}
+.qrcodediv{
+    
+}
+/*******************************    *********************************************lieuxpref*/
+.dis2{
+    margin-top:5%;
+}
+.pref{
+    margin-top:10%;
+}
+/*******************************    *********************************************Points*/
+
+.dis34{
+    margin-top:5%;
+}
+.décalage{
+    margin-left:40%;
+    margin-top:-3%;
+    margin-bottom:4%;
+}
+.Fadeup{
+    margin-top:9%;
+}
+.authen{
+    margin-top:-5%;
+}
+.navré{
+    margin-top:5%;
+}
+.navré2{
+    margin-top:3%;
+}
+.phonepage{
+    margin-top:6%;
+}
+.flashbe{
+    margin-top:0;
+}
+.talarage{
+    margin-top:10%;
+}
+.fb{
+    margin-top:0 ;
+}
+.FEEDD{
+    margin-top:10%;
+}
+.LP{
+    margin-top:-1%;
+}
+.rec{
+    margin-top:2%;
+}
+.rec2{
+    margin-top:10%;
+}
+.balo{
+    margin-right:-15%;
+}
+.podrik{
+    margin-right:-70%;
+}
+.hraf{
+    margin-top:2%; 
+}
+.BONPALNSSS{
+    margin-top:10%;
+}
+.STARK{
+    margin-top:10%;
+}
+/*******************************    *********************************************resp sous page*/
+@media (max-height: 800px) {
+        
+    .phonediscu{
+        width:35%;
+    }
+    .phonediscu2{
+        width:35%;
+    }
+    .sortietexte{
+        font-size:150%;
+    }
+    .sortietexte2{
+        font-size:125%;
+    }
+    .authen{
+        margin-top:-1%;
+    }
+    .dis{
+        margin-bottom:2%;
+    }
+    .navré{
+        margin-top:0;
+    }
+    .navré2{
+        margin-top:0;
+    }
+    .phonepage{
+        margin-top:0;
+    }
+    .flashbe{
+        margin-top:8%;
+    }
+    .Qrcode{
+        width:75%;
+        margin-left: 20%;
+    }
+    .qrcodetexte{
+        
+        margin-top:-2% ;
+    }
+    .fb{
+        margin-top:6% ;
+    }
+    .LP{
+        margin-top:5%;
+    }
+    .rec{
+        margin-top:10%;
+    }
+    .authen2{
+        margin-top:3%;
+    }
+}
+@media (max-width: 991px) {
+    .sortietexte{
+        margin-left: 35%;
+        font-size:125%;
+        text-align: center;
+    }
+    .Titresortie{
+        font-size:150%;
+        margin-left: 35%;
+        margin-top:5%;
+        text-align: center;
+    }
+    .sortietexte2{
+        font-size:100%;
+        margin-left: 35%;
+        text-align: center;
+    }
+
+    .phonediscu{
+        margin-left: 32.5%; 
+    }
+    .phonediscu2{
+        margin-left: 32.5%;
+    }
+    .titresecondaire{
+        margin-left: 25%;
+    }
+    .titresp{
+        margin-left: 25%;
+    }
+    .passad{
+        margin-right:0;
+    }
+}
+/*******************************    *********************************************scene3*/
+
+.scene3{
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.figure{
+    margin-left: 32.5%;
+    font-size:150%;
+}
+.scene32P{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.BRAN{
+    margin-left: 36%;
+}
+/*******************************    *********************************************loading*/
+.constrr{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity:30%;
+}
+.kol2{
+    background-color:black;
+    z-index:1;
+    width:100%;
+    height:100%;
+
+    position:absolute;
+    top:0;
+    opacity:30%;
+
+}
+.kol2{
+    background-color:white;
+    z-index:1;
+    width:25%;
+    height:25%;
+    margin-left:40%;
+    position:absolute;
+    margin-top:20%;
+    opacity:1;
+    border-radius:15px;
+}
+.encons{
+    color:black;
+    z-index:3;
+    font-weight:bold;
+    margin-top:10%;
+    margin-right:-25%;
+    
+}
+.pioche{
+    margin-top:30%;
+}
+.construction2{
+    margin-left: -15%;
+    
+}
+.encons2{
+    margin-right:-45%;
+}
+/*******************************    *********************************************loading */
+@media (max-width: 991px) {
+
+    .balo{margin-left:0%;
+    margin-right:0;}
+    .encons2{
+        display: none
+    }
+    .catamajo{margin-left:-40%;
+        margin-right:-18%;
+    }
+    
+    .kol2{
+        width:60%;
+        height:25%;
+        margin-left:20%;
+        margin-top:70%;
+        border-radius:15px;
+    }
+    .pioche{
+        margin-left:15%;
+    }
+    .encons{
+        margin-left:8%;
+
+    }
+    .grejoy{
+        margin-left:15%;
+    }
+    .malp {
+        margin-left: 40%;
+    }
+    
+    .momm{
+        display:none;
+    }
+    .topp{
+        margin-top: 20%;
+    }
+
+}
+.haut5{margin-top:8%;}

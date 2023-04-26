@@ -1,0 +1,20 @@
+﻿<script
+
+        
+        type="text/javascript">
+
+   
+    let params = new URLSearchParams(window.location.search)
+let type = params.get('type')
+let id = params.get('id')
+   
+
+if (navigator.userAgent.indexOf("Android") != -1) {try{window.location.href="wonder:///"+type+"/"+id} finally{window.location.href="https://play.google.com/store/apps/details?id=com.gwlc.flashup"}}
+else if( navigator.userAgent.match(/iPhone/i)) {setTimeout(function () { window.location = "https://apps.apple.com/fr/app/flashup/id1591445599"; }, 25); window.location = "wonder:///"+type+"/"+id}
+else window.location.href="https://Flashup.fr"
+    
+ 
+
+
+
+</script>

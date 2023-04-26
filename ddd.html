@@ -1,0 +1,416 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link href="http://fonts.cdnfonts.com/css/wanted-m54" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <title>Flashs</title>
+<body>
+<header>
+    <a href="index.html" class="logo"><img src="./Logo/FlashupColor.png" alt="a" class="img"></a>
+    <div class="menuToggle" onclick="toggleMenu();"></div>
+    <ul class="navbar">
+        <li><a href="index.html#fonc" class="m" onclick="toggleMenu();">Fonctionnalités</a>
+            <div id="col2" class="submenu2">
+                <div id="col" class="submenu">
+                    <ul>
+                        <li> <a href="Flashs.html" class="A">Flashs</a></li>
+                        <li><a href="Catégories.html" class="A">Catégories</a></li>
+                        <li> <a href="PROFILUTILISATEUR.html" class="A">Profil utilisateur</a></li>
+                        <li> <a href="BonsPlans.html" class="A">Bons plans</a></li>
+                        <li> <a href="Flashmap.html" class="A">Flash Carte</a></li>
+                        <li>  <a href="Lesdiscussions.html" class="A">Les discussions</a></li>
+                        <li>  <a href="Pages.html" class="A">Pages</a></li>
+                        <li>  <a href="Flashbacks.html" class="A">Flashbacks</a></li>
+                        <li>   <a href="Points.html" class="A">Points</a></li>
+                        <li>    <a href="Calendrier.html" class="A">Calendrier</a></li>
+                        <li>   <a href="QRcode.html" class="A">QR Code</a></li>
+                        <li>    <a href="Feedbacks.html" class="A">Feedbacks</a></li>
+                        <li>   <a href="Lieuxpréférés.html" class="A">Lieux préférés</a></li>
+                        <li>     <a href="Recommandations.html" class="A">Recommandations</a></li>
+                        <li>   <a href="Authentification.html" class="A">Authentification</a></li>
+                    </ul></div></div>
+        </li>
+        <li><a href="La flash map.html" class="m" onclick="toggleMenu();">La Flash Carte</a></li>
+        <li><a href="Compte pro.html" class="m" onclick="toggleMenu();">Compte Pro</a></li>
+        <a href="Lien.html" class="dl" onclick="toggleMenu();">Télécharger <h class="FL">FLASHUP</h> </a>
+    </ul>
+</header>
+
+
+<script type="text/javascript">
+
+
+    function toggleMenu(){
+        const menuToggle = document.querySelector('.menuToggle');
+        const navbar = document.querySelector('.navbar');
+        navbar.classList.toggle('active');
+        menuToggle.classList.toggle('active');
+    }
+</script>
+
+<section class="homepage-wall">
+    <div class="section-container">
+        <div class="homepage-wall__wrapper">
+            <div class="homepage-wall__list">
+                <div class="homepage-wall__list-wrapper scroll-bottom">
+                    <ul>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Lydia est révolutionnaire                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Nessnes</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Meilleur application de paiement au monde                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Guurhidgur</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    J&rsquo;adore Lydia                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Hilal</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Parfait pour tous les jours                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Elfedesbois</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Beaucoup plus simple et rapide qu&rsquo;un virement                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Thibault</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Lydia a rendu ma vie tellement plus simple                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Valentine</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Permet un gain de temps fabuleux et de bons comptes entre amis !                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Domdecl</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Je ne savais pas qu&rsquo;on pouvait faire autant de choses avec cette app                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Bémoldhebrail</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="homepage-wall__list">
+                <div class="homepage-wall__list-wrapper scroll-top">
+                    <ul>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Indispensable aujourd&rsquo;hui                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Manonmoreau</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Top banking app                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Corentin</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    C&rsquo;est devenu mon quotidien.                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Tanguy507</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Appli hyper pratique, facile d&rsquo;utilisation et qui nous simplifie la vie !                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Zo7475</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Le feu cette appli                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Mgstrasbourg</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Top. Vraiment. Ultra pratique.                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Marie</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Lydia se montre indispensable au quotidien                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Max</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Simple, fluide, efficace                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Nicolas</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Parfait en tout point, ça facilite tellement la vie                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Adyl57</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Simple, intuitif, on s&rsquo;en passe difficilement !                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Ellana</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Une solution bancaire simple, efficace, très intuitive à utiliser.                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Pierre</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Meilleure app de tous les temps                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Auurorel</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Une belle appli qui devient aussi une très bonne banque !                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Mister J88</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Plateforme qui a révolutionné ma vie financière                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">MricoLocos</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Le futur est là                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Mister J88</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Ma 2ème banque, plus pratique que la 1ère !                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Valentin</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="homepage-wall__list">
+                <div class="homepage-wall__list-wrapper scroll-bottom">
+                    <ul>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Parfait en tout point, ça facilite tellement la vie                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Adyl57</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Simple, intuitif, on s&rsquo;en passe difficilement !                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Ellana</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Une solution bancaire simple, efficace, très intuitive à utiliser.                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Pierre</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Meilleure app de tous les temps                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Auurorel</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Une belle appli qui devient aussi une très bonne banque !                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Mister J88</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Plateforme qui a révolutionné ma vie financière                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">MricoLocos</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Le futur est là                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Mister J88</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="homepage-wall__card">
+                            <div class="homepage-wall__card-wrapper ">
+                                <div class="homepage-wall__card-text">
+                                    Ma 2ème banque, plus pratique que la 1ère !                    </div>
+                                <div class="homepage-wall__card-footer">
+                                    <div class="homepage-wall__card-author">Valentin</div>
+                                    <img src="images/stars.svg" alt="Étoiles"  />
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.18.2/core.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+<script src="app2.js"></script>
+<script src="app3.js"></script>
+</body>
+</html>
+       
